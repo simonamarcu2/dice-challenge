@@ -1,0 +1,12 @@
+- The code starts by creating a variable called scores.
+- This is an array that will hold the player's score at the end of each round.
+- The next line creates a variable called roundScore, which will be used to keep track of how many points have been scored in each round.
+- Next, there are variables for activePlayer and gamePlaying.
+- ActivePlayer is the number of players currently playing and gamePlaying is true if this code has been executed or false otherwise.
+
+- The next function init() sets up some CSS styles for dice so they can be hidden when not being rolled and then adds event listeners to buttons that allow you to roll or hold dice until someone wins (or rolls 20).- The code is a code that will be executed when the player clicks on the button labeled "roll" in the game.
+- The function rolls a six-sided die and displays it to the user.
+
+- The function then checks if they have rolled a 1, which means they are not yet at 20 points, but if they do roll a 1, it will continue onto nextPlayer().
+- If they don't roll a 1, it will add up their score and display it to them.
+–
